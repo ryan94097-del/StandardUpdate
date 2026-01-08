@@ -39,7 +39,7 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER", "")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "")
-EMAIL_RECIPIENT = "ryan94097@gmail.com"
+EMAIL_RECIPIENT = os.environ.get("EMAIL_RECIPIENTS", "ryan94097@gmail.com")  # 從環境變數讀取，預設為備用值
 
 # Telegram 設定 (從環境變數讀取)
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
