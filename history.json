@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_run_time": "2026-01-08 18:12:49",
+    "last_run_time": "2026-01-08 18:21:59",
     "status": "success",
     "standards_checked": 50,
     "last_heartbeat": null
@@ -15,7 +15,7 @@
         "subpart": "B",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/B",
         "current_version": "2016-12-28",
-        "last_checked": "2026-01-08 18:11:20"
+        "last_checked": "2026-01-08 18:20:34"
       },
       {
         "id": "47-CFR-15-C",
@@ -25,7 +25,7 @@
         "subpart": "C",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/C",
         "current_version": "2016-12-28",
-        "last_checked": "2026-01-08 18:11:22"
+        "last_checked": "2026-01-08 18:20:36"
       },
       {
         "id": "47-CFR-15-E",
@@ -35,7 +35,7 @@
         "subpart": "E",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/E",
         "current_version": "2016-12-28",
-        "last_checked": "2026-01-08 18:11:23"
+        "last_checked": "2026-01-08 18:20:37"
       },
       {
         "id": "47-CFR-15-F",
@@ -45,7 +45,7 @@
         "subpart": "F",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/F",
         "current_version": "2016-12-28",
-        "last_checked": "2026-01-08 18:11:25"
+        "last_checked": "2026-01-08 18:20:39"
       },
       {
         "id": "47-CFR-2-1091",
@@ -55,7 +55,7 @@
         "section": "2.1091",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/2",
         "current_version": "2016-11-28",
-        "last_checked": "2026-01-08 18:11:27"
+        "last_checked": "2026-01-08 18:20:41"
       },
       {
         "id": "47-CFR-2-1093",
@@ -65,7 +65,7 @@
         "section": "2.1093",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/2",
         "current_version": "2016-11-28",
-        "last_checked": "2026-01-08 18:11:28"
+        "last_checked": "2026-01-08 18:20:42"
       },
       {
         "id": "47-CFR-22",
@@ -74,7 +74,7 @@
         "title": "22",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/22",
         "current_version": "2016-12-31",
-        "last_checked": "2026-01-08 18:11:30"
+        "last_checked": "2026-01-08 18:20:43"
       },
       {
         "id": "47-CFR-24",
@@ -83,7 +83,7 @@
         "title": "24",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/24",
         "current_version": "2017-01-03",
-        "last_checked": "2026-01-08 18:11:32"
+        "last_checked": "2026-01-08 18:20:45"
       },
       {
         "id": "47-CFR-25",
@@ -92,7 +92,7 @@
         "title": "25",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/25",
         "current_version": "2016-12-12",
-        "last_checked": "2026-01-08 18:11:35"
+        "last_checked": "2026-01-08 18:20:46"
       },
       {
         "id": "47-CFR-27",
@@ -101,7 +101,7 @@
         "title": "27",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/27",
         "current_version": "2016-12-31",
-        "last_checked": "2026-01-08 18:11:37"
+        "last_checked": "2026-01-08 18:20:48"
       },
       {
         "id": "47-CFR-30",
@@ -110,7 +110,7 @@
         "title": "30",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/30",
         "current_version": "2026-01-02",
-        "last_checked": "2026-01-08 18:11:40"
+        "last_checked": "2026-01-08 18:20:50"
       },
       {
         "id": "47-CFR-74",
@@ -120,7 +120,7 @@
         "part": "74",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/74",
         "current_version": "2016-12-15",
-        "last_checked": "2026-01-08 18:11:44"
+        "last_checked": "2026-01-08 18:20:51"
       },
       {
         "id": "47-CFR-90",
@@ -130,7 +130,7 @@
         "part": "90",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/90",
         "current_version": "2016-12-15",
-        "last_checked": "2026-01-08 18:11:45"
+        "last_checked": "2026-01-08 18:20:53"
       },
       {
         "id": "47-CFR-95",
@@ -140,7 +140,7 @@
         "part": "95",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/95",
         "current_version": "2016-12-15",
-        "last_checked": "2026-01-08 18:11:47"
+        "last_checked": "2026-01-08 18:20:55"
       },
       {
         "id": "47-CFR-96",
@@ -150,7 +150,7 @@
         "part": "96",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/96",
         "current_version": "2016-12-15",
-        "last_checked": "2026-01-08 18:11:49"
+        "last_checked": "2026-01-08 18:20:56"
       },
       {
         "id": "47-CFR-97",
@@ -160,7 +160,7 @@
         "part": "97",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/97",
         "current_version": "2016-12-15",
-        "last_checked": "2026-01-08 18:11:50"
+        "last_checked": "2026-01-08 18:20:58"
       },
       {
         "id": "47-CFR-101",
@@ -170,7 +170,7 @@
         "part": "101",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/101",
         "current_version": "2016-12-15",
-        "last_checked": "2026-01-08 18:11:52"
+        "last_checked": "2026-01-08 18:21:00"
       }
     ],
     "ISED": [
@@ -181,7 +181,7 @@
         "rss_id": "RSS-Gen",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/538",
         "current_version": "Issue 5 (March 15, 2018)",
-        "last_checked": "2026-01-08 18:11:54"
+        "last_checked": "2026-01-08 18:21:02"
       },
       {
         "id": "ISED-RSS-102",
@@ -190,7 +190,7 @@
         "rss_id": "RSS-102",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/280",
         "current_version": "Issue 6 (December 15, 2023)",
-        "last_checked": "2026-01-08 18:11:56"
+        "last_checked": "2026-01-08 18:21:04"
       },
       {
         "id": "ISED-RSS-111",
@@ -199,7 +199,7 @@
         "rss_id": "RSS-111",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/571",
         "current_version": "Issue 5 (September 4, 2014)",
-        "last_checked": "2026-01-08 18:11:58"
+        "last_checked": "2026-01-08 18:21:05"
       },
       {
         "id": "ISED-RSS-130",
@@ -207,8 +207,8 @@
         "type": "ISED",
         "rss_id": "RSS-130",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1082",
-        "current_version": "b76fee371770",
-        "last_checked": "2026-01-08 18:12:00"
+        "current_version": "Issue 2 (February 2019)",
+        "last_checked": "2026-01-08 18:21:08"
       },
       {
         "id": "ISED-RSS-132",
@@ -217,7 +217,7 @@
         "rss_id": "RSS-132",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/388",
         "current_version": "Issue 4 (January 31, 2023)",
-        "last_checked": "2026-01-08 18:12:02"
+        "last_checked": "2026-01-08 18:21:10"
       },
       {
         "id": "ISED-RSS-133",
@@ -226,7 +226,7 @@
         "rss_id": "RSS-133",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/182",
         "current_version": "Issue 7 (July 24, 2024)",
-        "last_checked": "2026-01-08 18:12:04"
+        "last_checked": "2026-01-08 18:21:12"
       },
       {
         "id": "ISED-RSS-139",
@@ -235,7 +235,7 @@
         "rss_id": "RSS-139",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/620",
         "current_version": "Issue 4 (September 29, 2022)",
-        "last_checked": "2026-01-08 18:12:05"
+        "last_checked": "2026-01-08 18:21:14"
       },
       {
         "id": "ISED-RSS-140",
@@ -243,8 +243,8 @@
         "type": "ISED",
         "rss_id": "RSS-140",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1525",
-        "current_version": "7d556186aab0",
-        "last_checked": "2026-01-08 18:12:07"
+        "current_version": "Issue 1 (April 2018)",
+        "last_checked": "2026-01-08 18:21:16"
       },
       {
         "id": "ISED-RSS-192",
@@ -252,8 +252,8 @@
         "type": "ISED",
         "rss_id": "RSS-192",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/290",
-        "current_version": "95844c058f2c",
-        "last_checked": "2026-01-08 18:12:08"
+        "current_version": "Issue 5 (July 2023)",
+        "last_checked": "2026-01-08 18:21:18"
       },
       {
         "id": "ISED-RSS-195",
@@ -262,7 +262,7 @@
         "rss_id": "RSS-195",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/486",
         "current_version": "Issue 2 (April 24, 2014)",
-        "last_checked": "2026-01-08 18:12:10"
+        "last_checked": "2026-01-08 18:21:20"
       },
       {
         "id": "ISED-RSS-197",
@@ -270,8 +270,8 @@
         "type": "ISED",
         "rss_id": "RSS-197",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/826",
-        "current_version": "78606aa46ca4",
-        "last_checked": "2026-01-08 18:12:12"
+        "current_version": "Issue 1 (February 2010)",
+        "last_checked": "2026-01-08 18:21:22"
       },
       {
         "id": "ISED-RSS-199",
@@ -279,8 +279,8 @@
         "type": "ISED",
         "rss_id": "RSS-199",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/814",
-        "current_version": "c5863313d433",
-        "last_checked": "2026-01-08 18:12:14"
+        "current_version": "Issue 4 (July 2023)",
+        "last_checked": "2026-01-08 18:21:24"
       },
       {
         "id": "ISED-RSS-210",
@@ -289,7 +289,7 @@
         "rss_id": "RSS-210",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/145",
         "current_version": "Issue 11 (June 25, 2024)",
-        "last_checked": "2026-01-08 18:12:16"
+        "last_checked": "2026-01-08 18:21:25"
       },
       {
         "id": "ISED-RSS-216",
@@ -298,7 +298,7 @@
         "rss_id": "RSS-216",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1197",
         "current_version": "Issue 3 (September 3, 2024)",
-        "last_checked": "2026-01-08 18:12:18"
+        "last_checked": "2026-01-08 18:21:27"
       },
       {
         "id": "ISED-RSS-220",
@@ -307,7 +307,7 @@
         "rss_id": "RSS-220",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/720",
         "current_version": "Issue 1 (July 31, 2019)",
-        "last_checked": "2026-01-08 18:12:19"
+        "last_checked": "2026-01-08 18:21:29"
       },
       {
         "id": "ISED-RSS-247",
@@ -316,7 +316,7 @@
         "rss_id": "RSS-247",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1248",
         "current_version": "Issue 4 (July 24, 2025)",
-        "last_checked": "2026-01-08 18:12:21"
+        "last_checked": "2026-01-08 18:21:31"
       },
       {
         "id": "ISED-RSS-248",
@@ -325,7 +325,7 @@
         "rss_id": "RSS-248",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1810",
         "current_version": "Issue 3 (October 11, 2024)",
-        "last_checked": "2026-01-08 18:12:22"
+        "last_checked": "2026-01-08 18:21:33"
       },
       {
         "id": "ISED-RSS-251",
@@ -334,7 +334,7 @@
         "rss_id": "RSS-251",
         "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1204",
         "current_version": "Issue 2 (July 31, 2018)",
-        "last_checked": "2026-01-08 18:12:24"
+        "last_checked": "2026-01-08 18:21:34"
       }
     ],
     "ETSI": [
@@ -345,7 +345,7 @@
         "en_number": "300 328",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300328/",
         "current_version": "f387e5fa3f38",
-        "last_checked": "2026-01-08 18:12:26"
+        "last_checked": "2026-01-08 18:21:36"
       },
       {
         "id": "ETSI-EN-301-893",
@@ -354,7 +354,7 @@
         "en_number": "301 893",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301800_301899/301893/",
         "current_version": "80bbce6ec624",
-        "last_checked": "2026-01-08 18:12:28"
+        "last_checked": "2026-01-08 18:21:38"
       },
       {
         "id": "ETSI-EN-300-440",
@@ -363,7 +363,7 @@
         "en_number": "300 440",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300400_300499/300440/",
         "current_version": "38656f537547",
-        "last_checked": "2026-01-08 18:12:30"
+        "last_checked": "2026-01-08 18:21:39"
       },
       {
         "id": "ETSI-EN-300-330",
@@ -372,7 +372,7 @@
         "en_number": "300 330",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300330/",
         "current_version": "4401928546dd",
-        "last_checked": "2026-01-08 18:12:32"
+        "last_checked": "2026-01-08 18:21:42"
       },
       {
         "id": "ETSI-EN-301-908-1",
@@ -381,7 +381,7 @@
         "en_number": "301 908-1",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190801/",
         "current_version": "eb93fb22dfd1",
-        "last_checked": "2026-01-08 18:12:33"
+        "last_checked": "2026-01-08 18:21:43"
       },
       {
         "id": "ETSI-EN-301-908-2",
@@ -390,7 +390,7 @@
         "en_number": "301 908-2",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190802/",
         "current_version": "32dd036efdbf",
-        "last_checked": "2026-01-08 18:12:35"
+        "last_checked": "2026-01-08 18:21:45"
       },
       {
         "id": "ETSI-EN-301-908-13",
@@ -399,7 +399,7 @@
         "en_number": "301 908-13",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190813/",
         "current_version": "882a54bf9c5e",
-        "last_checked": "2026-01-08 18:12:36"
+        "last_checked": "2026-01-08 18:21:46"
       },
       {
         "id": "ETSI-EN-301-908-25",
@@ -408,7 +408,7 @@
         "en_number": "301 908-25",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190825/",
         "current_version": "9b83eb634e27",
-        "last_checked": "2026-01-08 18:12:38"
+        "last_checked": "2026-01-08 18:21:47"
       },
       {
         "id": "ETSI-EN-301-489-1",
@@ -417,7 +417,7 @@
         "en_number": "301 489-1",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148901/",
         "current_version": "01bd25c4eb89",
-        "last_checked": "2026-01-08 18:12:40"
+        "last_checked": "2026-01-08 18:21:49"
       },
       {
         "id": "ETSI-EN-301-489-17",
@@ -426,7 +426,7 @@
         "en_number": "301 489-17",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148917/",
         "current_version": "b6d27c563910",
-        "last_checked": "2026-01-08 18:12:41"
+        "last_checked": "2026-01-08 18:21:51"
       },
       {
         "id": "ETSI-EN-301-489-52",
@@ -435,7 +435,7 @@
         "en_number": "301 489-52",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148952/",
         "current_version": "9a6872e718a4",
-        "last_checked": "2026-01-08 18:12:43"
+        "last_checked": "2026-01-08 18:21:53"
       },
       {
         "id": "ETSI-EN-302-502",
@@ -444,7 +444,7 @@
         "en_number": "302 502",
         "source_url": "https://www.etsi.org/deliver/etsi_en/302500_302599/302502/",
         "current_version": "579a46141d0b",
-        "last_checked": "2026-01-08 18:12:45"
+        "last_checked": "2026-01-08 18:21:55"
       },
       {
         "id": "ETSI-EN-302-208",
@@ -453,7 +453,7 @@
         "en_number": "302 208",
         "source_url": "https://www.etsi.org/deliver/etsi_en/302200_302299/302208/",
         "current_version": "0dcd14f17013",
-        "last_checked": "2026-01-08 18:12:47"
+        "last_checked": "2026-01-08 18:21:57"
       },
       {
         "id": "ETSI-EN-303-413",
@@ -462,7 +462,7 @@
         "en_number": "303 413",
         "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303413/",
         "current_version": "5a208f653d9b",
-        "last_checked": "2026-01-08 18:12:48"
+        "last_checked": "2026-01-08 18:21:58"
       },
       {
         "id": "ETSI-EN-303-417",
@@ -471,11 +471,51 @@
         "en_number": "303 417",
         "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303417/",
         "current_version": "95719eddafba",
-        "last_checked": "2026-01-08 18:12:49"
+        "last_checked": "2026-01-08 18:21:59"
       }
     ]
   },
   "update_history": [
+    {
+      "id": "ISED-RSS-199",
+      "name": "RSS-199 - 700 MHz Band",
+      "type": "ISED",
+      "old_version": "c5863313d433",
+      "new_version": "Issue 4 (July 2023)",
+      "detected_at": "2026-01-08 18:21:24"
+    },
+    {
+      "id": "ISED-RSS-197",
+      "name": "RSS-197 - WBS Band",
+      "type": "ISED",
+      "old_version": "78606aa46ca4",
+      "new_version": "Issue 1 (February 2010)",
+      "detected_at": "2026-01-08 18:21:22"
+    },
+    {
+      "id": "ISED-RSS-192",
+      "name": "RSS-192 - Fixed Radio Systems",
+      "type": "ISED",
+      "old_version": "95844c058f2c",
+      "new_version": "Issue 5 (July 2023)",
+      "detected_at": "2026-01-08 18:21:18"
+    },
+    {
+      "id": "ISED-RSS-140",
+      "name": "RSS-140 - Public Safety Broadband",
+      "type": "ISED",
+      "old_version": "7d556186aab0",
+      "new_version": "Issue 1 (April 2018)",
+      "detected_at": "2026-01-08 18:21:16"
+    },
+    {
+      "id": "ISED-RSS-130",
+      "name": "RSS-130 - Mobile Stations",
+      "type": "ISED",
+      "old_version": "b76fee371770",
+      "new_version": "Issue 2 (February 2019)",
+      "detected_at": "2026-01-08 18:21:08"
+    },
     {
       "id": "ISED-RSS-197",
       "name": "RSS-197 - WBS Band",
