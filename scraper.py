@@ -478,6 +478,15 @@ def fetch_etsi_data(standard: Dict[str, Any]) -> Tuple[Optional[str], Optional[s
     """
     從 ETSI 官網爬取 EN 標準版本資訊
     
+    ETSI 的標準目錄結構：
+    - 目錄連結格式為 XX.YY.ZZ_SS
+    - XX.YY.ZZ = 版本號（例如 02.02.02）
+    - SS = 狀態碼：
+      - 60 = 已發布 (Published)
+      - 40 = 投票中 (Vote)
+      - 30 = 草稿 (Draft)
+      - 20 = 早期草稿 (Early Draft)
+    
     Args:
         standard: 標準資料字典
         
@@ -498,30 +507,63 @@ def fetch_etsi_data(standard: Dict[str, Any]) -> Tuple[Optional[str], Optional[s
             
             soup = BeautifulSoup(response.text, "lxml")
             
-            # ETSI 標準頁面結構解析
-            # 通常包含版本號和發布日期的連結或文字
-            import re
+            # ETSI 目錄頁面解析
+            # 格式: XX.YY.ZZ_SS，例如 02.02.02_60
+            # 我們只關心已發布版本 (_60)
             
-            # 尋找 PDF 連結 (通常包含版本號)
+            published_versions = []
+            
+            # 尋找所有目錄連結
+            for link in soup.find_all("a", href=True):
+                href = link.get("href", "")
+                link_text = link.get_text(strip=True)
+                
+                # 匹配版本目錄格式: XX.YY.ZZ_60 (已發布版本)
+                version_match = re.search(r"(\d{2})\.(\d{2})\.(\d{2})_60", href)
+                if not version_match:
+                    # 嘗試從連結文字匹配
+                    version_match = re.search(r"(\d{2})\.(\d{2})\.(\d{2})_60", link_text)
+                
+                if version_match:
+                    major = int(version_match.group(1))
+                    minor = int(version_match.group(2))
+                    patch = int(version_match.group(3))
+                    # 使用元組儲存以便排序
+                    published_versions.append((major, minor, patch))
+            
+            # 找出最新的已發布版本
+            if published_versions:
+                # 排序並取最新版本
+                published_versions.sort(reverse=True)
+                latest = published_versions[0]
+                # 格式化為標準版本號格式: V X.Y.Z
+                version_str = f"V{latest[0]}.{latest[1]}.{latest[2]}"
+                return version_str, get_current_time_str()
+            
+            # 備用方案: 嘗試從 PDF 連結提取版本號
             for link in soup.find_all("a", href=True):
                 href = link.get("href", "")
                 if ".pdf" in href.lower():
                     # 從檔名中提取版本號 (例如 en_300328v020202p.pdf)
-                    version_match = re.search(r"v(\d{6})|_(\d+\.\d+\.\d+)", href.lower())
-                    if version_match:
-                        version = version_match.group(1) or version_match.group(2)
-                        return version, get_current_time_str()
+                    pdf_version_match = re.search(r"v(\d{2})(\d{2})(\d{2})", href.lower())
+                    if pdf_version_match:
+                        major = int(pdf_version_match.group(1))
+                        minor = int(pdf_version_match.group(2))
+                        patch = int(pdf_version_match.group(3))
+                        version_str = f"V{major}.{minor}.{patch}"
+                        return version_str, get_current_time_str()
             
             # 尋找頁面中的版本文字
             page_text = soup.get_text()
-            version_match = re.search(r"[Vv]ersion\s*([\d.]+)|V([\d.]+)", page_text)
-            if version_match:
-                version = version_match.group(1) or version_match.group(2)
-                return version, get_current_time_str()
+            text_version_match = re.search(r"[Vv]ersion\s*([\d.]+)|V([\d.]+)", page_text)
+            if text_version_match:
+                version = text_version_match.group(1) or text_version_match.group(2)
+                return f"V{version}", get_current_time_str()
             
-            # 回傳頁面內容的 hash
+            # 最後備用: 回傳頁面內容的 hash
             import hashlib
             content_hash = hashlib.md5(response.text.encode()).hexdigest()[:12]
+            print(f"[警告] ETSI 無法解析版本，使用內容 hash: {standard['id']}")
             return content_hash, get_current_time_str()
             
         except requests.RequestException as e:
