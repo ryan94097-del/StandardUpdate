@@ -433,8 +433,13 @@ def fetch_ised_data(standard: Dict[str, Any]) -> Tuple[Optional[str], Optional[s
             issue_match = re.search(r"Issue\s+(\d+)", page_text)
             
             # Search for Date
-            # Pattern: "July 24, 2025"
-            date_match = re.search(r"([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})", page_text)
+            # 月份名稱列表
+            months = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
+            # Pattern 1: "July 24, 2025" 或 "July 24 2025" (含日期)
+            date_match = re.search(rf"({months}\s+\d{{1,2}},?\s+\d{{4}})", page_text)
+            if not date_match:
+                # Pattern 2: "February 2019" 或 "April 2018" (只有月份年份)
+                date_match = re.search(rf"({months}\s+\d{{4}})", page_text)
             
             if issue_match and date_match:
                 issue_num = issue_match.group(1)
