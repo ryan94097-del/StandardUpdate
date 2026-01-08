@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "last_run_time": "2026-01-07 18:49:05",
+    "status": "partial",
+    "standards_checked": 53,
+    "last_heartbeat": null
+  },
+  "standards": {
+    "FCC_CFR": [
+      {
+        "id": "47-CFR-15-B",
+        "name": "47 CFR Part 15 Subpart B - Unintentional Radiators",
+        "type": "FCC_CFR",
+        "title": "15",
+        "subpart": "B",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/B",
+        "current_version": "2016-12-28",
+        "last_checked": "2026-01-07 18:43:46"
+      },
+      {
+        "id": "47-CFR-15-C",
+        "name": "47 CFR Part 15 Subpart C - Intentional Radiators",
+        "type": "FCC_CFR",
+        "title": "15",
+        "subpart": "C",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/C",
+        "current_version": "2016-12-28",
+        "last_checked": "2026-01-07 18:43:49"
+      },
+      {
+        "id": "47-CFR-15-E",
+        "name": "47 CFR Part 15 Subpart E - U-NII",
+        "type": "FCC_CFR",
+        "title": "15",
+        "subpart": "E",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/E",
+        "current_version": "2016-12-28",
+        "last_checked": "2026-01-07 18:43:51"
+      },
+      {
+        "id": "47-CFR-15-F",
+        "name": "47 CFR Part 15 Subpart F - RFID",
+        "type": "FCC_CFR",
+        "title": "15",
+        "subpart": "F",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/F",
+        "current_version": "2016-12-28",
+        "last_checked": "2026-01-07 18:43:53"
+      },
+      {
+        "id": "47-CFR-2-1091",
+        "name": "47 CFR 2.1091 - RF Exposure (Portable)",
+        "type": "FCC_CFR",
+        "title": "2",
+        "section": "2.1091",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/2",
+        "current_version": "2016-11-28",
+        "last_checked": "2026-01-07 18:43:56"
+      },
+      {
+        "id": "47-CFR-2-1093",
+        "name": "47 CFR 2.1093 - RF Exposure (Mobile)",
+        "type": "FCC_CFR",
+        "title": "2",
+        "section": "2.1093",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/2",
+        "current_version": "2016-11-28",
+        "last_checked": "2026-01-07 18:43:58"
+      },
+      {
+        "id": "47-CFR-22",
+        "name": "47 CFR Part 22 - Public Mobile Services",
+        "type": "FCC_CFR",
+        "title": "22",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/22",
+        "current_version": "2016-12-31",
+        "last_checked": "2026-01-07 18:44:00"
+      },
+      {
+        "id": "47-CFR-24",
+        "name": "47 CFR Part 24 - Personal Communications Services",
+        "type": "FCC_CFR",
+        "title": "24",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/24",
+        "current_version": "2017-01-03",
+        "last_checked": "2026-01-07 18:44:03"
+      },
+      {
+        "id": "47-CFR-25",
+        "name": "47 CFR Part 25 - Satellite Communications",
+        "type": "FCC_CFR",
+        "title": "25",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/25",
+        "current_version": "2016-12-12",
+        "last_checked": "2026-01-07 18:44:05"
+      },
+      {
+        "id": "47-CFR-27",
+        "name": "47 CFR Part 27 - Miscellaneous Wireless",
+        "type": "FCC_CFR",
+        "title": "27",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/27",
+        "current_version": "2016-12-31",
+        "last_checked": "2026-01-07 18:44:08"
+      },
+      {
+        "id": "47-CFR-30",
+        "name": "47 CFR Part 30 - Upper Microwave Flexible Use",
+        "type": "FCC_CFR",
+        "title": "30",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/30",
+        "current_version": "2025-12-17",
+        "last_checked": "2026-01-07 18:44:10"
+      },
+      {
+        "id": "47-CFR-74",
+        "name": "47 CFR Part 74 - Broadcast Auxiliary Services",
+        "type": "FCC_CFR",
+        "title": "47",
+        "part": "74",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/74",
+        "current_version": "2016-12-15",
+        "last_checked": "2026-01-07 18:44:13"
+      },
+      {
+        "id": "47-CFR-90",
+        "name": "47 CFR Part 90 - Private Land Mobile Radio",
+        "type": "FCC_CFR",
+        "title": "47",
+        "part": "90",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/90",
+        "current_version": "2016-12-15",
+        "last_checked": "2026-01-07 18:44:16"
+      },
+      {
+        "id": "47-CFR-95",
+        "name": "47 CFR Part 95 - Personal Radio Services",
+        "type": "FCC_CFR",
+        "title": "47",
+        "part": "95",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/95",
+        "current_version": "2016-12-15",
+        "last_checked": "2026-01-07 18:44:18"
+      },
+      {
+        "id": "47-CFR-96",
+        "name": "47 CFR Part 96 - CBRS",
+        "type": "FCC_CFR",
+        "title": "47",
+        "part": "96",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/96",
+        "current_version": "2016-12-15",
+        "last_checked": "2026-01-07 18:44:21"
+      },
+      {
+        "id": "47-CFR-97",
+        "name": "47 CFR Part 97 - Amateur Radio",
+        "type": "FCC_CFR",
+        "title": "47",
+        "part": "97",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/97",
+        "current_version": "2016-12-15",
+        "last_checked": "2026-01-07 18:44:24"
+      },
+      {
+        "id": "47-CFR-101",
+        "name": "47 CFR Part 101 - Fixed Microwave Services",
+        "type": "FCC_CFR",
+        "title": "47",
+        "part": "101",
+        "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/101",
+        "current_version": "2016-12-15",
+        "last_checked": "2026-01-07 18:44:26"
+      }
+    ],
+    "ISED": [
+      {
+        "id": "ISED-RSS-Gen",
+        "name": "RSS-Gen - General Requirements",
+        "type": "ISED",
+        "rss_id": "RSS-Gen",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/538",
+        "current_version": "Issue 5 (March 15, 2018)",
+        "last_checked": "2026-01-07 18:47:44"
+      },
+      {
+        "id": "ISED-RSS-102",
+        "name": "RSS-102 - RF Exposure Compliance",
+        "type": "ISED",
+        "rss_id": "RSS-102",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/280",
+        "current_version": "Issue 6 (December 15, 2023)",
+        "last_checked": "2026-01-07 18:47:48"
+      },
+      {
+        "id": "ISED-RSS-111",
+        "name": "RSS-111 - Broadcast Transmitters",
+        "type": "ISED",
+        "rss_id": "RSS-111",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/571",
+        "current_version": "Issue 5 (September 4, 2014)",
+        "last_checked": "2026-01-07 18:47:50"
+      },
+      {
+        "id": "ISED-RSS-130",
+        "name": "RSS-130 - Mobile Stations",
+        "type": "ISED",
+        "rss_id": "RSS-130",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1082",
+        "current_version": "b76fee371770",
+        "last_checked": "2026-01-07 18:47:53"
+      },
+      {
+        "id": "ISED-RSS-132",
+        "name": "RSS-132 - Cellular Telephones",
+        "type": "ISED",
+        "rss_id": "RSS-132",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/388",
+        "current_version": "Issue 4 (January 31, 2023)",
+        "last_checked": "2026-01-07 18:47:56"
+      },
+      {
+        "id": "ISED-RSS-133",
+        "name": "RSS-133 - 2 GHz PCS",
+        "type": "ISED",
+        "rss_id": "RSS-133",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/182",
+        "current_version": "Issue 7 (July 24, 2024)",
+        "last_checked": "2026-01-07 18:47:59"
+      },
+      {
+        "id": "ISED-RSS-139",
+        "name": "RSS-139 - AWS",
+        "type": "ISED",
+        "rss_id": "RSS-139",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/620",
+        "current_version": "Issue 4 (September 29, 2022)",
+        "last_checked": "2026-01-07 18:48:02"
+      },
+      {
+        "id": "ISED-RSS-140",
+        "name": "RSS-140 - Public Safety Broadband",
+        "type": "ISED",
+        "rss_id": "RSS-140",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1525",
+        "current_version": "2bdca0b355a9",
+        "last_checked": "2026-01-07 18:48:05"
+      },
+      {
+        "id": "ISED-RSS-192",
+        "name": "RSS-192 - Fixed Radio Systems",
+        "type": "ISED",
+        "rss_id": "RSS-192",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/290",
+        "current_version": "95844c058f2c",
+        "last_checked": "2026-01-07 18:48:07"
+      },
+      {
+        "id": "ISED-RSS-195",
+        "name": "RSS-195 - WCS Band",
+        "type": "ISED",
+        "rss_id": "RSS-195",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/486",
+        "current_version": "Issue 2 (April 24, 2014)",
+        "last_checked": "2026-01-07 18:48:10"
+      },
+      {
+        "id": "ISED-RSS-197",
+        "name": "RSS-197 - WBS Band",
+        "type": "ISED",
+        "rss_id": "RSS-197",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/826",
+        "current_version": "b43bbda0145f",
+        "last_checked": "2026-01-07 18:48:13"
+      },
+      {
+        "id": "ISED-RSS-199",
+        "name": "RSS-199 - 700 MHz Band",
+        "type": "ISED",
+        "rss_id": "RSS-199",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/814",
+        "current_version": "c5863313d433",
+        "last_checked": "2026-01-07 18:48:16"
+      },
+      {
+        "id": "ISED-RSS-210",
+        "name": "RSS-210 - Low-Power License-Exempt",
+        "type": "ISED",
+        "rss_id": "RSS-210",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/145",
+        "current_version": "Issue 11 (June 25, 2024)",
+        "last_checked": "2026-01-07 18:48:19"
+      },
+      {
+        "id": "ISED-RSS-216",
+        "name": "RSS-216 - WLA Devices (5 GHz)",
+        "type": "ISED",
+        "rss_id": "RSS-216",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1197",
+        "current_version": "Issue 3 (September 3, 2024)",
+        "last_checked": "2026-01-07 18:48:22"
+      },
+      {
+        "id": "ISED-RSS-220",
+        "name": "RSS-220 - DSSS Devices",
+        "type": "ISED",
+        "rss_id": "RSS-220",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/720",
+        "current_version": "Issue 1 (July 31, 2019)",
+        "last_checked": "2026-01-07 18:48:26"
+      },
+      {
+        "id": "ISED-RSS-247",
+        "name": "RSS-247 - Digital Transmission Systems",
+        "type": "ISED",
+        "rss_id": "RSS-247",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1248",
+        "current_version": "Issue 4 (July 24, 2025)",
+        "last_checked": "2026-01-07 18:48:29"
+      },
+      {
+        "id": "ISED-RSS-248",
+        "name": "RSS-248 - UWB Devices",
+        "type": "ISED",
+        "rss_id": "RSS-248",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1810",
+        "current_version": "Issue 3 (October 11, 2024)",
+        "last_checked": "2026-01-07 18:48:32"
+      },
+      {
+        "id": "ISED-RSS-251",
+        "name": "RSS-251 - mmWave Devices",
+        "type": "ISED",
+        "rss_id": "RSS-251",
+        "source_url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/node/1204",
+        "current_version": "Issue 2 (July 31, 2018)",
+        "last_checked": "2026-01-07 18:48:34"
+      }
+    ],
+    "ETSI": [
+      {
+        "id": "ETSI-EN-300-328",
+        "name": "EN 300 328 - Wideband Data (2.4 GHz WiFi/BT)",
+        "type": "ETSI",
+        "en_number": "300 328",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300328/",
+        "current_version": "f387e5fa3f38",
+        "last_checked": "2026-01-07 18:48:37"
+      },
+      {
+        "id": "ETSI-EN-301-893",
+        "name": "EN 301 893 - 5 GHz RLAN",
+        "type": "ETSI",
+        "en_number": "301 893",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301800_301899/301893/",
+        "current_version": "80bbce6ec624",
+        "last_checked": "2026-01-07 18:48:40"
+      },
+      {
+        "id": "ETSI-EN-300-440",
+        "name": "EN 300 440 - Short Range Devices",
+        "type": "ETSI",
+        "en_number": "300 440",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/300400_300499/300440/",
+        "current_version": "38656f537547",
+        "last_checked": "2026-01-07 18:48:42"
+      },
+      {
+        "id": "ETSI-EN-300-330",
+        "name": "EN 300 330 - Inductive Loop Systems",
+        "type": "ETSI",
+        "en_number": "300 330",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300330/",
+        "current_version": "4401928546dd",
+        "last_checked": "2026-01-07 18:48:44"
+      },
+      {
+        "id": "ETSI-EN-301-908-1",
+        "name": "EN 301 908-1 - IMT Cellular (Common)",
+        "type": "ETSI",
+        "en_number": "301 908-1",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190801/",
+        "current_version": "eb93fb22dfd1",
+        "last_checked": "2026-01-07 18:48:46"
+      },
+      {
+        "id": "ETSI-EN-301-908-2",
+        "name": "EN 301 908-2 - CDMA Direct Spread",
+        "type": "ETSI",
+        "en_number": "301 908-2",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190802/",
+        "current_version": "32dd036efdbf",
+        "last_checked": "2026-01-07 18:48:48"
+      },
+      {
+        "id": "ETSI-EN-301-908-13",
+        "name": "EN 301 908-13 - E-UTRA (LTE)",
+        "type": "ETSI",
+        "en_number": "301 908-13",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190813/",
+        "current_version": "882a54bf9c5e",
+        "last_checked": "2026-01-07 18:48:50"
+      },
+      {
+        "id": "ETSI-EN-301-908-25",
+        "name": "EN 301 908-25 - 5G NR UE",
+        "type": "ETSI",
+        "en_number": "301 908-25",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190825/",
+        "current_version": "9b83eb634e27",
+        "last_checked": "2026-01-07 18:48:53"
+      },
+      {
+        "id": "ETSI-EN-301-489-1",
+        "name": "EN 301 489-1 - EMC Common Technical",
+        "type": "ETSI",
+        "en_number": "301 489-1",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148901/",
+        "current_version": "01bd25c4eb89",
+        "last_checked": "2026-01-07 18:48:54"
+      },
+      {
+        "id": "ETSI-EN-301-489-17",
+        "name": "EN 301 489-17 - EMC for Wideband Data",
+        "type": "ETSI",
+        "en_number": "301 489-17",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148917/",
+        "current_version": "b6d27c563910",
+        "last_checked": "2026-01-07 18:48:56"
+      },
+      {
+        "id": "ETSI-EN-301-489-52",
+        "name": "EN 301 489-52 - EMC for Cellular",
+        "type": "ETSI",
+        "en_number": "301 489-52",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148952/",
+        "current_version": "9a6872e718a4",
+        "last_checked": "2026-01-07 18:48:58"
+      },
+      {
+        "id": "ETSI-EN-302-502",
+        "name": "EN 302 502 - 5.8 GHz Fixed Broadband",
+        "type": "ETSI",
+        "en_number": "302 502",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/302500_302599/302502/",
+        "current_version": "579a46141d0b",
+        "last_checked": "2026-01-07 18:49:00"
+      },
+      {
+        "id": "ETSI-EN-302-208",
+        "name": "EN 302 208 - RFID (865-868 MHz)",
+        "type": "ETSI",
+        "en_number": "302 208",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/302200_302299/302208/",
+        "current_version": "0dcd14f17013",
+        "last_checked": "2026-01-07 18:49:02"
+      },
+      {
+        "id": "ETSI-EN-303-413",
+        "name": "EN 303 413 - Satellite Earth Stations",
+        "type": "ETSI",
+        "en_number": "303 413",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303413/",
+        "current_version": "5a208f653d9b",
+        "last_checked": "2026-01-07 18:49:04"
+      },
+      {
+        "id": "ETSI-EN-303-417",
+        "name": "EN 303 417 - Ground-Based UAS",
+        "type": "ETSI",
+        "en_number": "303 417",
+        "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303417/",
+        "current_version": "95719eddafba",
+        "last_checked": "2026-01-07 18:49:05"
+      }
+    ]
+  },
+  "update_history": []
+}

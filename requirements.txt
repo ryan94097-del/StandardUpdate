@@ -1,0 +1,9 @@
+# 核心依賴
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+fake-useragent>=1.4.0
+
+# Streamlit 前端
+streamlit>=1.32.0
+pandas>=2.1.0
