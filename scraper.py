@@ -160,12 +160,14 @@ def send_update_notification(updates: List[Dict[str, Any]]) -> None:
     """
     
     for update in updates:
+        source_url = update.get('source_url', '')
+        url_html = f'<br><a href="{source_url}" style="color: #2196F3;">🔗 查看詳情</a>' if source_url else ''
         html += f"""
         <div class="update-item">
             <strong>{update['name']}</strong> ({update['id']})<br>
             <span class="old-version">舊版本: {update.get('old_version', 'N/A')}</span><br>
             <span class="new-version">新版本: {update.get('new_version', 'N/A')}</span><br>
-            <small>類型: {update.get('type', 'Unknown')}</small>
+            <small>類型: {update.get('type', 'Unknown')}</small>{url_html}
         </div>
         """
     
@@ -299,7 +301,12 @@ def send_telegram_update_notification(updates: List[Dict[str, Any]]) -> None:
     for update in updates:
         text += f"🔹 *{update['name']}* ({update['id']})\n"
         text += f"   舊版本: `{update.get('old_version', 'N/A')}`\n"
-        text += f"   新版本: `{update.get('new_version', 'N/A')}`\n\n"
+        text += f"   新版本: `{update.get('new_version', 'N/A')}`\n"
+        # 加入法規 URL 連結
+        source_url = update.get('source_url', '')
+        if source_url:
+            text += f"   🔗 [查看詳情]({source_url})\n"
+        text += "\n"
     
     text += f"⏰ 檢測時間: {get_current_time_str()}"
     
@@ -684,13 +691,16 @@ def run_monitor() -> Tuple[int, List[Dict[str, Any]], str]:
                     if old_version and old_version != new_version:
                         # 偵測到更新
                         print(f"⚡ 有更新! ({old_version} → {new_version})")
+                        # 取得法規 URL（優先使用 source_url，否則使用 api_endpoint）
+                        source_url = standard.get("source_url", "") or standard.get("api_endpoint", "")
                         updates.append({
                             "id": std_id,
                             "name": std_name,
                             "type": standard.get("type", ""),
                             "old_version": old_version,
                             "new_version": new_version,
-                            "detected_at": check_date
+                            "detected_at": check_date,
+                            "source_url": source_url
                         })
                         standard["current_version"] = new_version
                     elif not old_version:
