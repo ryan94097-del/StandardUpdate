@@ -75,27 +75,9 @@ jobs:
           git push
 
   # --------------------------------------------------------
-  # Keepalive 任務 - 防止 GitHub 暫停排程
+  # 注意：Keepalive 機制已移除
   # --------------------------------------------------------
-  keepalive:
-    runs-on: ubuntu-latest
-    # 明確設定寫入權限
-    permissions:
-      contents: write
-    
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          # 使用 GITHUB_TOKEN 以獲得寫入權限
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
-      # 使用 keepalive-workflow 保持 Repository 活躍
-      # 如果超過 50 天沒有活動，會自動產生一個 Commit
-      - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          # 設定天數閾值
-          time_elapsed: 50
-          # 明確指定使用的 token
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
+  # 由於 monitor job 每天執行，Repository 會保持活躍狀態
+  # GitHub 只會在 60 天沒有活動時暫停排程
+  # 因此不需要額外的 keepalive 機制
+  # --------------------------------------------------------
