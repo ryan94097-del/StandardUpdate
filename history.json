@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_run_time": "2026-04-19 11:40:05",
-    "status": "success",
-    "standards_checked": 50,
+    "last_run_time": "2026-04-20 12:10:50",
+    "status": "partial",
+    "standards_checked": 32,
     "last_heartbeat": null
   },
   "standards": {
@@ -15,7 +15,7 @@
         "subpart": "B",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/B",
         "current_version": "2016-12-28",
-        "last_checked": "2026-04-19 11:38:32"
+        "last_checked": "2026-04-20 11:40:07"
       },
       {
         "id": "47-CFR-15-C",
@@ -25,7 +25,7 @@
         "subpart": "C",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/C",
         "current_version": "2016-12-28",
-        "last_checked": "2026-04-19 11:38:34"
+        "last_checked": "2026-04-20 11:40:09"
       },
       {
         "id": "47-CFR-15-E",
@@ -35,7 +35,7 @@
         "subpart": "E",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/E",
         "current_version": "2016-12-28",
-        "last_checked": "2026-04-19 11:38:36"
+        "last_checked": "2026-04-20 11:40:11"
       },
       {
         "id": "47-CFR-15-F",
@@ -45,7 +45,7 @@
         "subpart": "F",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/15/subparts/F",
         "current_version": "2016-12-28",
-        "last_checked": "2026-04-19 11:38:37"
+        "last_checked": "2026-04-20 11:40:13"
       },
       {
         "id": "47-CFR-2-1091",
@@ -55,7 +55,7 @@
         "section": "2.1091",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/2",
         "current_version": "2016-11-28",
-        "last_checked": "2026-04-19 11:38:38"
+        "last_checked": "2026-04-20 11:40:15"
       },
       {
         "id": "47-CFR-2-1093",
@@ -65,7 +65,7 @@
         "section": "2.1093",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/2",
         "current_version": "2016-11-28",
-        "last_checked": "2026-04-19 11:38:40"
+        "last_checked": "2026-04-20 11:40:17"
       },
       {
         "id": "47-CFR-22",
@@ -74,7 +74,7 @@
         "title": "22",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/22",
         "current_version": "2016-12-31",
-        "last_checked": "2026-04-19 11:38:42"
+        "last_checked": "2026-04-20 11:40:19"
       },
       {
         "id": "47-CFR-24",
@@ -83,7 +83,7 @@
         "title": "24",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/24",
         "current_version": "2017-01-03",
-        "last_checked": "2026-04-19 11:38:44"
+        "last_checked": "2026-04-20 11:40:22"
       },
       {
         "id": "47-CFR-25",
@@ -92,7 +92,7 @@
         "title": "25",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/25",
         "current_version": "2016-12-12",
-        "last_checked": "2026-04-19 11:38:47"
+        "last_checked": "2026-04-20 11:40:24"
       },
       {
         "id": "47-CFR-27",
@@ -101,7 +101,7 @@
         "title": "27",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/27",
         "current_version": "2016-12-31",
-        "last_checked": "2026-04-19 11:38:49"
+        "last_checked": "2026-04-20 11:40:27"
       },
       {
         "id": "47-CFR-30",
@@ -110,7 +110,7 @@
         "title": "30",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/30",
         "current_version": "2016-10-04",
-        "last_checked": "2026-04-19 11:38:52"
+        "last_checked": "2026-04-20 11:40:30"
       },
       {
         "id": "47-CFR-74",
@@ -120,7 +120,7 @@
         "part": "74",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/74",
         "current_version": "2016-12-15",
-        "last_checked": "2026-04-19 11:38:55"
+        "last_checked": "2026-04-20 11:40:33"
       },
       {
         "id": "47-CFR-90",
@@ -130,7 +130,7 @@
         "part": "90",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/90",
         "current_version": "2016-12-15",
-        "last_checked": "2026-04-19 11:38:57"
+        "last_checked": "2026-04-20 11:40:36"
       },
       {
         "id": "47-CFR-95",
@@ -140,7 +140,7 @@
         "part": "95",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/95",
         "current_version": "2016-12-15",
-        "last_checked": "2026-04-19 11:38:58"
+        "last_checked": "2026-04-20 11:40:38"
       },
       {
         "id": "47-CFR-96",
@@ -150,7 +150,7 @@
         "part": "96",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/96",
         "current_version": "2016-12-15",
-        "last_checked": "2026-04-19 11:39:00"
+        "last_checked": "2026-04-20 11:40:40"
       },
       {
         "id": "47-CFR-97",
@@ -160,7 +160,7 @@
         "part": "97",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/97",
         "current_version": "2016-12-15",
-        "last_checked": "2026-04-19 11:39:01"
+        "last_checked": "2026-04-20 11:40:42"
       },
       {
         "id": "47-CFR-101",
@@ -170,7 +170,7 @@
         "part": "101",
         "api_endpoint": "https://www.ecfr.gov/api/versioner/v1/titles/47/parts/101",
         "current_version": "2016-12-15",
-        "last_checked": "2026-04-19 11:39:03"
+        "last_checked": "2026-04-20 11:40:43"
       }
     ],
     "ISED": [
@@ -345,7 +345,7 @@
         "en_number": "300 328",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300328/",
         "current_version": "V2.2.2",
-        "last_checked": "2026-04-19 11:39:42"
+        "last_checked": "2026-04-20 12:10:24"
       },
       {
         "id": "ETSI-EN-301-893",
@@ -354,7 +354,7 @@
         "en_number": "301 893",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301800_301899/301893/",
         "current_version": "V2.2.1",
-        "last_checked": "2026-04-19 11:39:44"
+        "last_checked": "2026-04-20 12:10:26"
       },
       {
         "id": "ETSI-EN-300-440",
@@ -363,7 +363,7 @@
         "en_number": "300 440",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300400_300499/300440/",
         "current_version": "V2.2.1",
-        "last_checked": "2026-04-19 11:39:46"
+        "last_checked": "2026-04-20 12:10:28"
       },
       {
         "id": "ETSI-EN-300-330",
@@ -372,7 +372,7 @@
         "en_number": "300 330",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300330/",
         "current_version": "V2.1.1",
-        "last_checked": "2026-04-19 11:39:47"
+        "last_checked": "2026-04-20 12:10:30"
       },
       {
         "id": "ETSI-EN-301-908-1",
@@ -381,7 +381,7 @@
         "en_number": "301 908-1",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190801/",
         "current_version": "V15.2.1",
-        "last_checked": "2026-04-19 11:39:49"
+        "last_checked": "2026-04-20 12:10:32"
       },
       {
         "id": "ETSI-EN-301-908-2",
@@ -390,7 +390,7 @@
         "en_number": "301 908-2",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190802/",
         "current_version": "V13.1.1",
-        "last_checked": "2026-04-19 11:39:51"
+        "last_checked": "2026-04-20 12:10:34"
       },
       {
         "id": "ETSI-EN-301-908-13",
@@ -399,7 +399,7 @@
         "en_number": "301 908-13",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190813/",
         "current_version": "V13.3.1",
-        "last_checked": "2026-04-19 11:39:52"
+        "last_checked": "2026-04-20 12:10:35"
       },
       {
         "id": "ETSI-EN-301-908-25",
@@ -408,7 +408,7 @@
         "en_number": "301 908-25",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190825/",
         "current_version": "V15.1.1",
-        "last_checked": "2026-04-19 11:39:54"
+        "last_checked": "2026-04-20 12:10:38"
       },
       {
         "id": "ETSI-EN-301-489-1",
@@ -417,7 +417,7 @@
         "en_number": "301 489-1",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148901/",
         "current_version": "V2.2.3",
-        "last_checked": "2026-04-19 11:39:56"
+        "last_checked": "2026-04-20 12:10:39"
       },
       {
         "id": "ETSI-EN-301-489-17",
@@ -426,7 +426,7 @@
         "en_number": "301 489-17",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148917/",
         "current_version": "V3.3.1",
-        "last_checked": "2026-04-19 11:39:57"
+        "last_checked": "2026-04-20 12:10:41"
       },
       {
         "id": "ETSI-EN-301-489-52",
@@ -435,7 +435,7 @@
         "en_number": "301 489-52",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148952/",
         "current_version": "V1.3.1",
-        "last_checked": "2026-04-19 11:39:59"
+        "last_checked": "2026-04-20 12:10:42"
       },
       {
         "id": "ETSI-EN-302-502",
@@ -444,7 +444,7 @@
         "en_number": "302 502",
         "source_url": "https://www.etsi.org/deliver/etsi_en/302500_302599/302502/",
         "current_version": "V2.1.1",
-        "last_checked": "2026-04-19 11:40:01"
+        "last_checked": "2026-04-20 12:10:44"
       },
       {
         "id": "ETSI-EN-302-208",
@@ -453,7 +453,7 @@
         "en_number": "302 208",
         "source_url": "https://www.etsi.org/deliver/etsi_en/302200_302299/302208/",
         "current_version": "V3.4.1",
-        "last_checked": "2026-04-19 11:40:02"
+        "last_checked": "2026-04-20 12:10:46"
       },
       {
         "id": "ETSI-EN-303-413",
@@ -462,7 +462,7 @@
         "en_number": "303 413",
         "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303413/",
         "current_version": "V1.2.1",
-        "last_checked": "2026-04-19 11:40:04"
+        "last_checked": "2026-04-20 12:10:48"
       },
       {
         "id": "ETSI-EN-303-417",
@@ -471,7 +471,7 @@
         "en_number": "303 417",
         "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303417/",
         "current_version": "V1.1.1",
-        "last_checked": "2026-04-19 11:40:05"
+        "last_checked": "2026-04-20 12:10:50"
       }
     ]
   },
