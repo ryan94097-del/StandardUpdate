@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_run_time": "2026-06-15 13:13:43",
-    "status": "success",
-    "standards_checked": 50,
+    "last_run_time": "2026-06-16 13:51:11",
+    "status": "partial",
+    "standards_checked": 15,
     "last_heartbeat": null
   },
   "standards": {
@@ -345,7 +345,7 @@
         "en_number": "300 328",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300328/",
         "current_version": "V2.2.2",
-        "last_checked": "2026-06-15 13:13:20"
+        "last_checked": "2026-06-16 13:50:48"
       },
       {
         "id": "ETSI-EN-301-893",
@@ -354,7 +354,7 @@
         "en_number": "301 893",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301800_301899/301893/",
         "current_version": "V2.2.1",
-        "last_checked": "2026-06-15 13:13:22"
+        "last_checked": "2026-06-16 13:50:51"
       },
       {
         "id": "ETSI-EN-300-440",
@@ -363,7 +363,7 @@
         "en_number": "300 440",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300400_300499/300440/",
         "current_version": "V2.2.1",
-        "last_checked": "2026-06-15 13:13:23"
+        "last_checked": "2026-06-16 13:50:52"
       },
       {
         "id": "ETSI-EN-300-330",
@@ -372,7 +372,7 @@
         "en_number": "300 330",
         "source_url": "https://www.etsi.org/deliver/etsi_en/300300_300399/300330/",
         "current_version": "V2.1.1",
-        "last_checked": "2026-06-15 13:13:25"
+        "last_checked": "2026-06-16 13:50:53"
       },
       {
         "id": "ETSI-EN-301-908-1",
@@ -381,7 +381,7 @@
         "en_number": "301 908-1",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190801/",
         "current_version": "V15.2.1",
-        "last_checked": "2026-06-15 13:13:27"
+        "last_checked": "2026-06-16 13:50:55"
       },
       {
         "id": "ETSI-EN-301-908-2",
@@ -390,7 +390,7 @@
         "en_number": "301 908-2",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190802/",
         "current_version": "V13.1.1",
-        "last_checked": "2026-06-15 13:13:29"
+        "last_checked": "2026-06-16 13:50:57"
       },
       {
         "id": "ETSI-EN-301-908-13",
@@ -399,7 +399,7 @@
         "en_number": "301 908-13",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190813/",
         "current_version": "V13.3.1",
-        "last_checked": "2026-06-15 13:13:30"
+        "last_checked": "2026-06-16 13:50:59"
       },
       {
         "id": "ETSI-EN-301-908-25",
@@ -408,7 +408,7 @@
         "en_number": "301 908-25",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301900_301999/30190825/",
         "current_version": "V15.1.1",
-        "last_checked": "2026-06-15 13:13:31"
+        "last_checked": "2026-06-16 13:51:00"
       },
       {
         "id": "ETSI-EN-301-489-1",
@@ -417,7 +417,7 @@
         "en_number": "301 489-1",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148901/",
         "current_version": "V2.2.3",
-        "last_checked": "2026-06-15 13:13:33"
+        "last_checked": "2026-06-16 13:51:02"
       },
       {
         "id": "ETSI-EN-301-489-17",
@@ -426,7 +426,7 @@
         "en_number": "301 489-17",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148917/",
         "current_version": "V3.3.1",
-        "last_checked": "2026-06-15 13:13:35"
+        "last_checked": "2026-06-16 13:51:03"
       },
       {
         "id": "ETSI-EN-301-489-52",
@@ -435,7 +435,7 @@
         "en_number": "301 489-52",
         "source_url": "https://www.etsi.org/deliver/etsi_en/301400_301499/30148952/",
         "current_version": "V1.3.1",
-        "last_checked": "2026-06-15 13:13:37"
+        "last_checked": "2026-06-16 13:51:05"
       },
       {
         "id": "ETSI-EN-302-502",
@@ -444,7 +444,7 @@
         "en_number": "302 502",
         "source_url": "https://www.etsi.org/deliver/etsi_en/302500_302599/302502/",
         "current_version": "V2.1.1",
-        "last_checked": "2026-06-15 13:13:38"
+        "last_checked": "2026-06-16 13:51:07"
       },
       {
         "id": "ETSI-EN-302-208",
@@ -453,7 +453,7 @@
         "en_number": "302 208",
         "source_url": "https://www.etsi.org/deliver/etsi_en/302200_302299/302208/",
         "current_version": "V3.4.1",
-        "last_checked": "2026-06-15 13:13:40"
+        "last_checked": "2026-06-16 13:51:08"
       },
       {
         "id": "ETSI-EN-303-413",
@@ -462,7 +462,7 @@
         "en_number": "303 413",
         "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303413/",
         "current_version": "V1.2.1",
-        "last_checked": "2026-06-15 13:13:42"
+        "last_checked": "2026-06-16 13:51:10"
       },
       {
         "id": "ETSI-EN-303-417",
@@ -471,7 +471,7 @@
         "en_number": "303 417",
         "source_url": "https://www.etsi.org/deliver/etsi_en/303400_303499/303417/",
         "current_version": "V1.1.1",
-        "last_checked": "2026-06-15 13:13:43"
+        "last_checked": "2026-06-16 13:51:11"
       }
     ]
   },
